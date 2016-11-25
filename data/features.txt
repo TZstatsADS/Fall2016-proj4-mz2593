@@ -1,0 +1,50 @@
+1bars_confidence£ºshape = (99,)
+	confidence value (between 0 and 1) associated with each beat by The Echo Nest
+2bars_start£ºshape = (99,)
+	start time of each bar according to The Echo Nest, this song has 99 bars	               
+3beats_confidence£ºshape = (397,)
+	confidence value (between 0 and 1) associated with each beat by The Echo Nest
+4beats_start£ºshape = (397,)
+	start time of each beat according to The Echo Nest, this song has 397 beats               
+5sections_confidence£ºshape = (10,)
+	confidence value (between 0 and 1) associated with each section by The Echo Nest
+6sections_start: shape = (10,)
+	start time of each section according to The Echo Nest, this song has 10 sections            
+7segments_confidence: shape = (935,)
+	confidence value (between 0 and 1) associated with each segment by The Echo Nest
+8segments_loudness_max£ºshape = (935,)
+	max loudness during each segment    
+9segments_loudness_max_time£ºsegments_loudness_max_time: shape = (935,)
+	time of the max loudness during each segment
+10segments_loudness_start£ºshape = (935,)
+	loudness at the beginning of each segment   
+11segments_pitches£ºsegments_pitches: shape = (935, 12)
+	chroma features for each segment (normalized so max is 1.)
+12segments_start£ºshape = (935,)
+	start time of each segment (~ musical event, or onset) according to The Echo Nest, this song has 935 segments            
+13segments_timbre£ºshape = (935, 12)
+	MFCC-like features for each segment
+14songs£º 
+                   
+15tatums_confidence: shape = (794,)
+	confidence value (between 0 and 1) associated with each tatum by The Echo Nest
+16tatums_start: shape = (794,)
+	start time of each tatum according to The Echo Nest, this song has 794 tatums              
+
+
+bars_confi1
+bars_start2
+beats_confi3
+beats_start4
+sec_confi5
+sec_start6
+seg_confi7
+loud_max8
+loud_max_time9
+loud_start10
+pitches11
+start12
+timbre13
+songs14
+tatums_confi15
+tatums_start16
